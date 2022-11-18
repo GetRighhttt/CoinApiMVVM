@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		113F127529270CE700D515D6 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F127429270CE700D515D6 /* Splash.swift */; };
+		113F12772927116C00D515D6 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F12762927116C00D515D6 /* Crypto.swift */; };
+		113F127B2927141700D515D6 /* CryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F127A2927141700D515D6 /* CryptoManager.swift */; };
+		113F127D2927187E00D515D6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F127C2927187E00D515D6 /* ViewModel.swift */; };
+		113F127F292720BC00D515D6 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F127E292720BC00D515D6 /* BottomSheetView.swift */; };
 		115CA2672926B0AF00ACAB85 /* CoinAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA2662926B0AF00ACAB85 /* CoinAPIApp.swift */; };
 		115CA2692926B0AF00ACAB85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA2682926B0AF00ACAB85 /* ContentView.swift */; };
 		115CA26B2926B0B100ACAB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115CA26A2926B0B100ACAB85 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		113F127429270CE700D515D6 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		113F12762927116C00D515D6 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		113F127A2927141700D515D6 /* CryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoManager.swift; sourceTree = "<group>"; };
+		113F127C2927187E00D515D6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		113F127E292720BC00D515D6 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		115CA2632926B0AF00ACAB85 /* CoinAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		115CA2662926B0AF00ACAB85 /* CoinAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPIApp.swift; sourceTree = "<group>"; };
 		115CA2682926B0AF00ACAB85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113F12792927140700D515D6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				113F127A2927141700D515D6 /* CryptoManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		115CA25A2926B0AF00ACAB85 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +69,7 @@
 		115CA2652926B0AF00ACAB85 /* CoinAPI */ = {
 			isa = PBXGroup;
 			children = (
+				113F12792927140700D515D6 /* API */,
 				115CA2762926B0C900ACAB85 /* View */,
 				115CA2752926B0C200ACAB85 /* ViewModel */,
 				115CA2742926B0BB00ACAB85 /* Model */,
@@ -74,6 +91,7 @@
 		115CA2742926B0BB00ACAB85 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				113F12762927116C00D515D6 /* Crypto.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,6 +99,7 @@
 		115CA2752926B0C200ACAB85 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				113F127C2927187E00D515D6 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -90,6 +109,7 @@
 			children = (
 				115CA2682926B0AF00ACAB85 /* ContentView.swift */,
 				113F127429270CE700D515D6 /* Splash.swift */,
+				113F127E292720BC00D515D6 /* BottomSheetView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,8 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113F12772927116C00D515D6 /* Crypto.swift in Sources */,
 				115CA2692926B0AF00ACAB85 /* ContentView.swift in Sources */,
+				113F127B2927141700D515D6 /* CryptoManager.swift in Sources */,
 				113F127529270CE700D515D6 /* Splash.swift in Sources */,
+				113F127F292720BC00D515D6 /* BottomSheetView.swift in Sources */,
+				113F127D2927187E00D515D6 /* ViewModel.swift in Sources */,
 				115CA2672926B0AF00ACAB85 /* CoinAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
